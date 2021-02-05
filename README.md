@@ -46,7 +46,7 @@ The project has some scrapped data from an online store you can use to populate 
 
 Load data to database
 
-```python manage.py loaddata relogios_scrappedd.json```
+```python manage.py loaddata relogios_scrapped.json```
 
 Or you can manually add data using the admin interface. Just create and superuser
 
