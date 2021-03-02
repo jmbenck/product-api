@@ -1,5 +1,6 @@
 # Product API with Django and Rest Framework
-This project consists in a Rest API made with Django and Rest Framework that control Users, Products and Categories.
+This is a simple project for demonstration purpouse. The main goal is to show what is possible to build with Django Rest Framework
+It consists in a Rest API made with Django and Rest Framework that control Users, Products and Categories.
 
 Allowed Methods: ``GET``, ``POST``, ``PUT``, ``PATCH``, ``DELETE``
 
