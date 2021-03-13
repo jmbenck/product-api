@@ -13,7 +13,7 @@ Functionalities:
 * CRUD Product
 * CRUD Category
 
-# Cloning and running
+## Cloning and running
 
 Clone it
 
@@ -42,7 +42,7 @@ Run server
 
 ```python manage.py runserver```
 
-# Populating database
+## Populating database
 
 The project has some scrapped data from an online store you can use to populate and test:
 
@@ -54,8 +54,11 @@ Or you can manually add data using the admin interface. Just create and superuse
 
 ```python manage.py createsuperuser```
 
-# API Documentation
+## API Documentation
 https://documenter.getpostman.com/view/5907064/TW73FkuL
 
-# Download Postman Collection
+## Download Postman Collection
 https://www.getpostman.com/collections/0a1b71c21a61af4b8f09
+
+## Contribute
+That's all. Feel free for collaborating to this repo. Thank you.
