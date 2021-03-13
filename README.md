@@ -17,30 +17,46 @@ Functionalities:
 
 Clone it
 
-```git clone https://github.com/jmbenck/product-api```
-
+````shell
+git clone https://github.com/jmbenck/product-api
+````
 
 Go to the root of Django project
 
-```cd djangoproject```
+````shell
+cd djangoproject
+````
 
 Create a virtual environment and activate it
 
-```virtualenv venv```
 
-```source venv/bin/activate```
+````shell
+virtualenv venv
+
+source venv/bin/activate
+````
+
 
 Use pip install with requirement.txt to install all dependencies
 
-```pip install -r requirements.txt```
+
+````shell
+pip install -r requirements.txt
+````
 
 Run migrate
 
-```python manage.py migrate```
+````Python3
+python manage.py migrate
+````
 
 Run server
 
-```python manage.py runserver```
+````Python3
+python manage.py runserver
+````
+
+
 
 ## Populating database
 
@@ -48,11 +64,15 @@ The project has some scrapped data from an online store you can use to populate 
 
 Load data to database
 
-```python manage.py loaddata relogios_scrapped.json```
+````Python3
+python manage.py loaddata relogios_scrapped.json
+````
 
 Or you can manually add data using the admin interface. Just create and superuser
 
-```python manage.py createsuperuser```
+````Python3
+python manage.py createsuperuser
+````
 
 ## API Documentation
 https://documenter.getpostman.com/view/5907064/TW73FkuL
