@@ -21,12 +21,6 @@ Clone it
 git clone https://github.com/jmbenck/product-api
 ````
 
-Go to the root of Django project
-
-````shell
-cd djangoproject
-````
-
 Create a virtual environment and activate it
 
 
@@ -36,13 +30,19 @@ virtualenv venv
 source venv/bin/activate
 ````
 
-
 Use pip install with requirement.txt to install all dependencies
 
 
 ````shell
 pip install -r requirements.txt
 ````
+
+Go to the root of Django project
+
+````shell
+cd djangoproject
+````
+
 
 Run migrate
 
@@ -55,7 +55,6 @@ Run server
 ````Python3
 python manage.py runserver
 ````
-
 
 
 ## Populating database
@@ -73,6 +72,7 @@ Or you can manually add data using the admin interface. Just create and superuse
 ````Python3
 python manage.py createsuperuser
 ````
+Use that user data to login in ``127.0.0.1:8000/admin``
 
 ## API Documentation
 https://documenter.getpostman.com/view/5907064/TW73FkuL
