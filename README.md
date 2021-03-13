@@ -23,11 +23,18 @@ git clone https://github.com/jmbenck/product-api
 
 Create a virtual environment and activate it
 
-
+LINUX
 ````shell
 virtualenv venv
 
 source venv/bin/activate
+````
+
+WINDOWS
+````shell
+virtualenv venv
+
+venv\Scripts\activate
 ````
 
 Use pip install with requirement.txt to install all dependencies
