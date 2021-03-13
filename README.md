@@ -23,14 +23,14 @@ git clone https://github.com/jmbenck/product-api
 
 Create a virtual environment and activate it
 
-LINUX
+* LINUX
 ````shell
 virtualenv venv
 
 source venv/bin/activate
 ````
 
-WINDOWS
+* WINDOWS
 ````shell
 virtualenv venv
 
